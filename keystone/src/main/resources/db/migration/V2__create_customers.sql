@@ -1,0 +1,5 @@
+ALTER TABLE customers
+ADD COLUMN address VARCHAR(255);
+
+ALTER TABLE customers
+ALTER COLUMN created_at SET NOT NULL;
